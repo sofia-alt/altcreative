@@ -1,0 +1,24 @@
+.nav {
+  background-color: $basic-pink;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__link {
+    text-decoration: none;
+    padding: 30px 15px;
+    color: #1f1f1f;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $dark-pink;
+    }
+  }
+}
