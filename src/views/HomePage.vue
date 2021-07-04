@@ -1,13 +1,11 @@
 <template>
-  <router-view/>
+  <div></div>
 </template>
-
 <script>
 export default {
+  name: 'HomePage',
   setup () {
+      
   }
 }
 </script>
-
-<style lang="scss">
-</style>
